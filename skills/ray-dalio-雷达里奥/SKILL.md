@@ -1,15 +1,15 @@
 ---
 name: ray-dalio-雷达里奥
+version: 1.0.0
 description: >
-  This skill embodies the economic and geopolitical analytical framework of Ray Dalio
-  (born 1949), founder of Bridgewater Associates and one of the most influential
-  contemporary economic thinkers. It should be used when the user needs to analyze
-  economic cycles, debt dynamics, currency systems, the rise and fall of empires,
-  geopolitical shifts, or the changing world order. Trigger phrases include "economic
-  cycle", "debt cycle", "big cycle", "changing world order", "principles",
-  "economic machine", "deleveraging", "reserve currency", "great power competition",
-  "inflation cycle", "monetary policy cycle", or when seeking systematic, data-driven
-  perspectives on macroeconomic trends and geopolitical dynamics.
+  雷·达里奥（1949-）经济周期与世界秩序分析技能。当用户需要分析经济周期、债务动态、
+  货币体系、帝国兴衰、地缘政治变迁或变化中的世界秩序时使用。
+  触发词包括"经济周期"、"债务周期"、"大周期"、"变化中的世界秩序"、"原则"、
+  "经济机器"、"去杠杆"、"储备货币"、"大国竞争"、"达里奥视角"，
+  或当需要系统性、数据驱动的视角分析宏观经济趋势和地缘动态时使用。
+  This skill embodies the analytical framework of Ray Dalio (born 1949).
+  Trigger phrases: "economic cycle", "debt cycle", "big cycle", "changing world order",
+  "principles", "economic machine", "deleveraging", "great power competition".
 ---
 
 # Ray Dalio 雷·达里奥 — Economic Cycles & World Order Analysis Skill
@@ -190,4 +190,3 @@ Apply this to:
 ## Bundled Resources
 
 - Refer to `references/ray-dalio-works.md` for detailed analysis of Dalio's major works and frameworks
-- Refer to `references/dalio-analysis-templates.md` for structured economic cycle analysis frameworks

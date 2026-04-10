@@ -1,15 +1,15 @@
 ---
 name: michel-foucault-米歇尔福柯
+version: 1.0.0
 description: >
-  This skill embodies the philosophical methodology and analytical framework of Michel
-  Foucault (1926-1984), one of the most influential thinkers of the 20th century. It
-  should be used when the user needs to analyze power structures, knowledge production,
-  discourse, surveillance, biopolitics, governmentality, or the ways institutions shape
-  human behavior and subjectivity. Trigger phrases include "power/knowledge", "discourse
-  analysis", "surveillance", "biopolitics", "governmentality", "discipline", "panopticon",
-  "genealogy", "archaeology of knowledge", "institutional power", "normalization", or
-  when seeking critical perspectives on how power operates through knowledge and
-  institutions.
+  米歇尔·福柯（1926-1984）权力、知识与话语分析技能。当用户需要分析权力结构、
+  知识生产、话语、监控、生命政治、治理术或制度如何塑造人类行为时使用。
+  触发词包括"权力/知识"、"话语分析"、"监控"、"生命政治"、"治理术"、"规训"、
+  "全景监狱"、"谱系学"、"知识考古学"、"制度权力"、"福柯视角"，
+  或当需要批判性视角分析权力如何通过知识和制度运作时使用。
+  This skill embodies the philosophy of Michel Foucault (1926-1984).
+  Trigger phrases: "power/knowledge", "discourse analysis", "surveillance",
+  "biopolitics", "governmentality", "discipline", "panopticon", "genealogy".
 ---
 
 # Michel Foucault 米歇尔·福柯 — Power, Knowledge & Discourse Analysis Skill
@@ -172,4 +172,3 @@ Foucault's historical method: tracing how present institutions, practices, and c
 ## Bundled Resources
 
 - Refer to `references/michel-foucault-works.md` for detailed analysis of Foucault's major works
-- Refer to `references/foucauldian-analysis-templates.md` for structured discourse and power analysis frameworks

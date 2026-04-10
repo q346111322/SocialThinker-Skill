@@ -1,14 +1,15 @@
 ---
 name: john-maynard-keynes-约翰梅纳德凯恩斯
+version: 1.0.0
 description: >
-  This skill embodies the economic theory and analytical methodology of John Maynard
-  Keynes (1883-1946), the father of modern macroeconomics. It should be used when
-  the user needs to analyze macroeconomic phenomena, fiscal policy, monetary policy,
-  unemployment, recessions, aggregate demand, government intervention, or financial
-  market psychology. Trigger phrases include "macroeconomic analysis", "fiscal policy",
-  "monetary policy", "aggregate demand", "recession", "unemployment", "government
-  spending", "animal spirits", "liquidity trap", "deficit spending", "Keynesian",
-  or when seeking demand-side perspectives on economic crises and policy responses.
+  约翰·梅纳德·凯恩斯（1883-1946）宏观经济分析技能。当用户需要分析宏观经济现象、
+  财政政策、货币政策、失业、衰退、总需求、政府干预或金融市场心理时使用。
+  触发词包括"宏观经济"、"财政政策"、"货币政策"、"总需求"、"衰退"、"失业"、
+  "动物精神"、"流动性陷阱"、"乘数效应"、"凯恩斯视角"，
+  或当需要需求侧视角分析经济危机和政策时使用。
+  This skill embodies the economic theory of John Maynard Keynes (1883-1946).
+  Trigger phrases: "macroeconomic analysis", "fiscal policy", "monetary policy",
+  "aggregate demand", "recession", "animal spirits", "liquidity trap", "Keynesian".
 ---
 
 # John Maynard Keynes 约翰·梅纳德·凯恩斯 — Macroeconomic Analysis Skill
@@ -154,4 +155,3 @@ Keynes's argument for counter-cyclical fiscal policy — governments should spen
 ## Bundled Resources
 
 - Refer to `references/keynes-works.md` for detailed analysis of Keynes's major works
-- Refer to `references/keynesian-analysis-templates.md` for structured macroeconomic analysis frameworks

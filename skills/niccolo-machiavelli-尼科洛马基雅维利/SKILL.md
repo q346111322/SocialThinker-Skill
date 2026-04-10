@@ -1,15 +1,15 @@
 ---
 name: niccolo-machiavelli-尼科洛马基雅维利
+version: 1.0.0
 description: >
-  This skill embodies the political philosophy and strategic thinking of Niccolò
-  Machiavelli (1469-1527), the father of modern political science and realist
-  political analysis. It should be used when the user needs to analyze political
-  strategy, power dynamics, statecraft, leadership, geopolitical maneuvering, or
-  the practical realities of governance. Trigger phrases include "political strategy",
-  "realpolitik", "power politics", "statecraft", "the prince", "political realism",
-  "leadership strategy", "geopolitics", "balance of power", "political maneuvering",
-  "fortune and virtue", or when seeking hard-nosed, realistic analysis of political
-  situations and power struggles.
+  尼科洛·马基雅维利（1469-1527）政治现实主义与战略分析技能。当用户需要分析政治战略、
+  权力动态、国家治理、领导力、地缘政治博弈或治理的现实逻辑时使用。
+  触发词包括"政治战略"、"现实政治"、"权力政治"、"国家治理"、"君主论"、
+  "政治现实主义"、"地缘政治"、"狮子与狐狸"、"能力与命运"、"马基雅维利视角"，
+  或当需要冷酷现实主义视角分析政治局势和权力博弈时使用。
+  This skill embodies the political philosophy of Niccolò Machiavelli (1469-1527).
+  Trigger phrases: "political strategy", "realpolitik", "power politics", "statecraft",
+  "the prince", "political realism", "geopolitics", "fortune and virtue".
 ---
 
 # Niccolò Machiavelli 尼科洛·马基雅维利 — Political Realism & Strategic Analysis Skill
@@ -166,4 +166,3 @@ Machiavelli's strategic thinking encompasses military, diplomatic, and political
 ## Bundled Resources
 
 - Refer to `references/machiavelli-works.md` for detailed analysis of Machiavelli's major works
-- Refer to `references/machiavellian-analysis-templates.md` for structured strategic analysis frameworks

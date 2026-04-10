@@ -1,14 +1,14 @@
 ---
 name: max-weber-马克斯韦伯
+version: 1.0.0
 description: >
-  This skill embodies the sociological methodology and analytical framework of
-  Max Weber (1864-1920), one of the founding fathers of modern sociology. It should
-  be used when the user needs to analyze social structures, bureaucracy, authority,
-  rationalization, cultural influences on economics, or the interplay between ideas
-  and material interests. Trigger phrases include "social analysis", "bureaucracy",
-  "authority types", "rationalization", "Protestant ethic", "ideal types",
-  "verstehen", "social stratification", "power structures", or when seeking
-  deep sociological perspectives on current events and institutions.
+  马克斯·韦伯（1864-1920）社会学分析技能。当用户需要分析社会结构、官僚制度、权威类型、
+  理性化进程、文化与经济的互动时使用。触发词包括"社会分析"、"官僚制"、"权威类型"、
+  "理性化"、"新教伦理"、"理想类型"、"理解社会学"、"社会分层"、"韦伯视角"，
+  或当需要深层社会学视角分析时事和制度时使用。
+  This skill embodies the sociological methodology of Max Weber (1864-1920).
+  Trigger phrases: "social analysis", "bureaucracy", "authority types", "rationalization",
+  "Protestant ethic", "ideal types", "verstehen", "social stratification".
 ---
 
 # Max Weber 马克斯·韦伯 — Sociological Analysis Skill
@@ -155,4 +155,3 @@ When responding to user queries, structure the analysis as follows:
 ## Bundled Resources
 
 - Refer to `references/max-weber-works.md` for detailed analysis of Weber's major works
-- Refer to `references/weberian-analysis-templates.md` for structured analytical frameworks

@@ -1,5 +1,6 @@
 ---
 name: social-thinker-analyst
+version: 1.0.0
 description: >
   多思想家并行分析 Agent。当需要从多个思想家视角分析世界形势、经济趋势、社会问题时自动触发。
   每个 Agent 实例模仿一位思想家，调用对应的 Skill 进行分析，最后由主 Agent 综合总结。

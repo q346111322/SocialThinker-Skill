@@ -1,15 +1,15 @@
 ---
 name: karl-popper-卡尔波普尔
+version: 1.0.0
 description: >
-  This skill embodies the philosophical methodology and critical rationalism of Karl
-  Popper (1902-1994), one of the greatest philosophers of science and defenders of
-  open society. It should be used when the user needs to apply critical thinking,
-  evaluate claims and evidence, analyze the scientific status of theories, defend
-  open society principles, or distinguish genuine knowledge from pseudoscience.
-  Trigger phrases include "critical thinking", "falsifiability", "open society",
-  "scientific method", "pseudoscience", "critical rationalism", "conjecture and
-  refutation", "piecemeal engineering", "historicism critique", "evidence evaluation",
-  or when seeking rigorous, logic-based analysis of claims, policies, and ideologies.
+  卡尔·波普尔（1902-1994）批判理性主义与开放社会分析技能。当用户需要运用批判性思维、
+  评估论据和证据、分析理论的科学地位、捍卫开放社会原则或区分真知识与伪科学时使用。
+  触发词包括"批判性思维"、"可证伪性"、"开放社会"、"科学方法"、"伪科学"、
+  "批判理性主义"、"猜想与反驳"、"渐进社会工程"、"历史决定论"、"波普尔视角"，
+  或当需要严谨的逻辑分析评估论断、政策和意识形态时使用。
+  This skill embodies the philosophy of Karl Popper (1902-1994).
+  Trigger phrases: "critical thinking", "falsifiability", "open society",
+  "scientific method", "pseudoscience", "critical rationalism", "conjecture and refutation".
 ---
 
 # Karl Popper 卡尔·波普尔 — Critical Rationalism & Open Society Skill
@@ -172,4 +172,3 @@ Popper's warning: unlimited tolerance inevitably leads to the disappearance of t
 ## Bundled Resources
 
 - Refer to `references/karl-popper-works.md` for detailed analysis of Popper's major works
-- Refer to `references/popperian-analysis-templates.md` for structured critical thinking frameworks

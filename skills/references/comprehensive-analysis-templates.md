@@ -1,3 +1,15 @@
+---
+name: comprehensive-analysis-templates
+version: 1.0.0
+description: >
+  多思想家综合分析模板集。包含多 Agent 并行分析规范、Skill 路径映射、Agent Prompt 模板，
+  以及世界新闻、经济形势、社会问题、未来预判、思想家对话等 5 大结构化分析模板。
+  触发词包括"综合分析"、"多视角分析"、"分析模板"、"多思想家"。
+  Comprehensive multi-thinker analysis template collection. Includes multi-Agent parallel
+  analysis specs, 5 structured analysis templates for world news, economics, social issues,
+  future prediction, and thinker dialogue simulation.
+---
+
 # 综合分析模板 — 多思想家视角分析框架
 
 本文档提供从多个思想家视角综合分析社会、经济和政治问题的结构化模板，以及多 Agent 并行调用 Skill 的规范。

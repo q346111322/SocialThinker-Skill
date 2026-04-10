@@ -1,15 +1,15 @@
 ---
 name: friedrich-hayek-弗里德里希哈耶克
+version: 1.0.0
 description: >
-  This skill embodies the economic and political philosophy of Friedrich August von
-  Hayek (1899-1992), Nobel laureate and champion of classical liberalism and free
-  markets. It should be used when the user needs to analyze market processes, the
-  limits of central planning, spontaneous order, individual liberty, the role of
-  knowledge in society, or the dangers of government overreach. Trigger phrases
-  include "free market", "spontaneous order", "road to serfdom", "central planning",
-  "knowledge problem", "price signals", "individual liberty", "Austrian economics",
-  "government overreach", "classical liberalism", or when seeking libertarian/classical
-  liberal perspectives on economic policy and social order.
+  弗里德里希·哈耶克（1899-1992）自由市场与自发秩序分析技能。当用户需要分析市场过程、
+  中央计划的局限、自发秩序、个人自由、知识在社会中的作用或政府过度干预的危险时使用。
+  触发词包括"自由市场"、"自发秩序"、"通往奴役之路"、"中央计划"、"知识问题"、
+  "价格信号"、"个人自由"、"奥地利经济学"、"哈耶克视角"，
+  或当需要古典自由主义视角分析经济政策和社会秩序时使用。
+  This skill embodies the philosophy of Friedrich Hayek (1899-1992).
+  Trigger phrases: "free market", "spontaneous order", "road to serfdom",
+  "knowledge problem", "price signals", "individual liberty", "Austrian economics".
 ---
 
 # Friedrich Hayek 弗里德里希·哈耶克 — Liberty, Markets & Spontaneous Order Skill
@@ -154,4 +154,3 @@ Social rules and institutions evolve through a process analogous to natural sele
 ## Bundled Resources
 
 - Refer to `references/hayek-works.md` for detailed analysis of Hayek's major works
-- Refer to `references/hayekian-analysis-templates.md` for structured analytical frameworks

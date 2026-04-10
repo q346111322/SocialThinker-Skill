@@ -1,15 +1,14 @@
 ---
 name: emile-durkheim-埃米尔涂尔干
+version: 1.0.0
 description: >
-  This skill embodies the sociological methodology and analytical framework of
-  Émile Durkheim (1858-1917), the father of academic sociology and scientific
-  sociological methodology. It should be used when the user needs to analyze social
-  cohesion, collective consciousness, anomie, social norms, institutional functions,
-  or the relationship between individuals and society. Trigger phrases include
-  "social cohesion", "anomie", "social solidarity", "collective consciousness",
-  "social facts", "division of labor", "social norms", "institutional analysis",
-  "suicide rates", "moral education", or when seeking structural-functionalist
-  perspectives on social issues and crises.
+  埃米尔·涂尔干（1858-1917）社会团结与结构分析技能。当用户需要分析社会凝聚力、集体意识、
+  失范、社会规范、制度功能或个人与社会的关系时使用。触发词包括"社会凝聚"、"失范"、
+  "社会团结"、"集体意识"、"社会事实"、"分工"、"社会规范"、"涂尔干视角"，
+  或当需要结构功能主义视角分析社会问题时使用。
+  This skill embodies the sociological methodology of Émile Durkheim (1858-1917).
+  Trigger phrases: "social cohesion", "anomie", "social solidarity", "collective consciousness",
+  "social facts", "division of labor", "social norms", "institutional analysis".
 ---
 
 # Émile Durkheim 埃米尔·涂尔干 — Social Solidarity & Structural Analysis Skill
@@ -154,4 +153,3 @@ Durkheim's two dimensions of social life — the degree individuals are connecte
 ## Bundled Resources
 
 - Refer to `references/emile-durkheim-works.md` for detailed analysis of Durkheim's major works
-- Refer to `references/durkheimian-analysis-templates.md` for structured analytical frameworks

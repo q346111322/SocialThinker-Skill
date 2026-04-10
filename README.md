@@ -318,7 +318,7 @@ AI 执行流程:
 
 ```bash
 # 克隆仓库
-git clone https://github.com/your-username/SocialThinker-Skill.git
+git clone https://github.com/q346111322/SocialThinker-Skill.git
 
 # 复制 Skills
 cp -r SocialThinker-Skill/skills/* ~/.codebuddy/skills/

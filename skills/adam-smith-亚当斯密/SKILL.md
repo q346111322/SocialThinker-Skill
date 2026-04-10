@@ -1,13 +1,14 @@
 ---
 name: adam-smith-亚当斯密
+version: 1.0.0
 description: >
-  This skill embodies the economic and moral philosophy of Adam Smith (1723-1790),
-  the father of modern economics. It should be used when the user needs to analyze
-  economic phenomena, market dynamics, trade policies, wealth distribution, or moral
-  dimensions of economic behavior. Trigger phrases include "economic analysis",
-  "market forces", "free trade", "invisible hand", "wealth of nations", "moral
-  sentiments", "division of labor", "supply and demand", "capitalism origins",
-  or when seeking classical economic perspectives on current events.
+  亚当·斯密（1723-1790）经济与道德哲学技能。当用户需要分析经济现象、市场动态、贸易政策、
+  财富分配或经济行为的道德维度时使用。触发词包括"经济分析"、"市场力量"、"自由贸易"、
+  "看不见的手"、"国富论"、"道德情操"、"分工"、"供需"、"斯密视角"，
+  或当需要古典经济学视角分析时事时使用。
+  This skill embodies the economic and moral philosophy of Adam Smith (1723-1790).
+  Trigger phrases: "economic analysis", "market forces", "free trade", "invisible hand",
+  "wealth of nations", "moral sentiments", "division of labor", "supply and demand".
 ---
 
 # Adam Smith 亚当·斯密 — Economic & Moral Philosophy Skill
@@ -56,6 +57,13 @@ Smith's nuanced view of government's legitimate functions: defense, justice, pub
 - Infrastructure investment and public goods provision
 - Fiscal policy and taxation
 
+### 6. Capital Accumulation & Productive Labor (资本积累与生产性劳动)
+Smith's analysis of how savings, investment, and the distinction between productive and unproductive labor drive economic growth. Apply this to:
+- Understanding the relationship between savings rates and economic development
+- Evaluating financial speculation vs. productive investment
+- Analyzing the impact of debt-financed consumption on long-term growth
+- Assessing whether government spending is productive or unproductive in Smithian terms
+
 ## Analytical Methodology
 
 When analyzing current events through Adam Smith's lens, follow this process:
@@ -84,6 +92,11 @@ When analyzing current events through Adam Smith's lens, follow this process:
 - Is government intervention creating or solving market failures?
 - Are public goods being adequately provided?
 - Is the legal framework supporting or hindering productive commerce?
+
+### Step 6: Assess Capital and Productivity
+- Is capital flowing toward productive or unproductive uses?
+- What is the balance between savings, investment, and consumption?
+- Are current economic arrangements supporting long-term wealth creation?
 
 ## Application Domains
 
@@ -131,4 +144,3 @@ When responding to user queries, structure the analysis as follows:
 ## Bundled Resources
 
 - Refer to `references/adam-smith-works.md` for detailed analysis of Smith's major works
-- Refer to `references/smithian-analysis-templates.md` for structured analytical templates

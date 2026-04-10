@@ -1,15 +1,15 @@
 ---
 name: hannah-arendt-汉娜阿伦特
+version: 1.0.0
 description: >
-  This skill embodies the political philosophy and analytical framework of Hannah
-  Arendt (1906-1975), one of the most influential political thinkers of the 20th
-  century. It should be used when the user needs to analyze totalitarianism, political
-  action, the nature of power, the public sphere, human rights, revolution, or the
-  relationship between thinking and moral responsibility. Trigger phrases include
-  "totalitarianism", "banality of evil", "political action", "public sphere",
-  "human condition", "power vs. violence", "freedom", "revolution", "statelessness",
-  "refugee crisis", "authoritarianism", or when seeking philosophical perspectives
-  on political crises, human rights, and democratic decay.
+  汉娜·阿伦特（1906-1975）政治哲学与极权主义分析技能。当用户需要分析极权主义、
+  政治行动、权力本质、公共领域、人权、革命或思考与道德责任的关系时使用。
+  触发词包括"极权主义"、"平庸之恶"、"政治行动"、"公共领域"、"人的境况"、
+  "权力与暴力"、"自由"、"革命"、"难民危机"、"威权主义"、"阿伦特视角"，
+  或当需要哲学视角分析政治危机、人权和民主衰退时使用。
+  This skill embodies the political philosophy of Hannah Arendt (1906-1975).
+  Trigger phrases: "totalitarianism", "banality of evil", "political action",
+  "public sphere", "human condition", "power vs. violence", "authoritarianism".
 ---
 
 # Hannah Arendt 汉娜·阿伦特 — Political Philosophy & Totalitarianism Analysis Skill
@@ -165,4 +165,3 @@ Arendt's concept that every human birth brings the capacity for genuinely new ac
 ## Bundled Resources
 
 - Refer to `references/hannah-arendt-works.md` for detailed analysis of Arendt's major works
-- Refer to `references/arendtian-analysis-templates.md` for structured political analysis frameworks
