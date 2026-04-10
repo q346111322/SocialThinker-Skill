@@ -1,6 +1,85 @@
 # 综合分析模板 — 多思想家视角分析框架
 
-本文档提供从多个思想家视角综合分析社会、经济和政治问题的结构化模板。
+本文档提供从多个思想家视角综合分析社会、经济和政治问题的结构化模板，以及多 Agent 并行调用 Skill 的规范。
+
+---
+
+## 零、多 Agent 并行分析规范
+
+### 核心模式：每个 Agent 模仿一位思想家，调用对应 Skill 分析
+
+当用户提出需要多维度分析的问题时，按照以下流程执行：
+
+#### 第1步：信息收集
+- 使用 `web_search` 收集最新背景信息和数据
+- 至少从2个独立来源交叉验证关键事实
+- 整理为结构化的"背景概要"
+
+#### 第2步：选择思想家组合
+根据问题类型选择最合适的3-8位思想家（参见下方组合推荐表）
+
+#### 第3步：并行启动 Agent
+使用 `team_create` + `task()` 为每位思想家启动一个 Agent，每个 Agent：
+- **读取对应的 SKILL.md**（获取完整方法论框架）
+- **模仿该思想家的思维方式**（严格使用其分析工具）
+- **独立分析**（不参考其他思想家的观点）
+- **按统一的输出格式**返回分析结果
+
+#### 第4步：综合总结
+由主 Agent 收集所有分析结果，按以下结构综合：
+1. **共识点**：所有思想家一致同意的判断
+2. **核心分歧**：思想家之间的观点对立（用表格呈现）
+3. **最终综合判断**：短期/中期/长期预判
+4. **最大风险**：多数思想家警告的危险
+5. **最大希望**：多数思想家看到的机遇
+
+### 思想家组合推荐
+
+| 问题类型 | 推荐组合 | 核心维度 |
+|---------|---------|---------|
+| 世界形势/地缘政治 | 韦伯 + 马基雅维利 + 阿伦特 + 达里奥 + 福柯 | 权威·权力·秩序·周期·话语 |
+| 经济形势/宏观分析 | 斯密 + 凯恩斯 + 哈耶克 + 达里奥 | 市场·需求·秩序·周期 |
+| 社会问题/文化冲突 | 韦伯 + 涂尔干 + 福柯 + 阿伦特 + 波普尔 | 结构·团结·权力·公共·批判 |
+| 技术与社会 | 福柯 + 韦伯 + 哈耶克 + 波普尔 + 达里奥 | 监控·理性·秩序·证伪·创新 |
+| 政策评估 | 凯恩斯 + 哈耶克 + 斯密 + 波普尔 + 达里奥 | 干预·自由·市场·检验·周期 |
+| 未来预判 | 达里奥 + 波普尔 + 阿伦特 + 韦伯 + 哈耶克 | 周期·证伪·诞生·理性·演化 |
+
+### Agent Prompt 模板
+
+```
+你是一个使用 {思想家姓名}（{英文名}）思维框架分析问题的专家。
+
+请先阅读 {Skill文件路径} 获取该思想家的分析方法论，
+然后用该思想家的视角分析以下问题：
+
+## 待分析问题
+{用户的问题}
+
+## 背景信息
+{收集到的最新事实和数据}
+
+## 分析要求
+1. 严格使用该思想家的核心分析工具（参考Skill中的Core Intellectual Framework）
+2. 遵循Skill中的Analytical Methodology步骤
+3. 按照Skill中的Response Framework组织输出
+4. 给出该思想家视角下的独特判断和预判
+5. 用中文输出，格式清晰，结论鲜明
+```
+
+### Skill 文件路径映射
+
+| 思想家 | Skill 路径 | Agent 定义路径 |
+|--------|-----------|--------------|
+| 亚当·斯密 | `skills/adam-smith-亚当斯密/SKILL.md` | `agents/thinkers/smith-analyst.md` |
+| 马克斯·韦伯 | `skills/max-weber-马克斯韦伯/SKILL.md` | `agents/thinkers/weber-analyst.md` |
+| 埃米尔·涂尔干 | `skills/emile-durkheim-埃米尔涂尔干/SKILL.md` | `agents/thinkers/durkheim-analyst.md` |
+| 凯恩斯 | `skills/john-maynard-keynes-约翰梅纳德凯恩斯/SKILL.md` | `agents/thinkers/keynes-analyst.md` |
+| 哈耶克 | `skills/friedrich-hayek-弗里德里希哈耶克/SKILL.md` | `agents/thinkers/hayek-analyst.md` |
+| 汉娜·阿伦特 | `skills/hannah-arendt-汉娜阿伦特/SKILL.md` | `agents/thinkers/arendt-analyst.md` |
+| 米歇尔·福柯 | `skills/michel-foucault-米歇尔福柯/SKILL.md` | `agents/thinkers/foucault-analyst.md` |
+| 马基雅维利 | `skills/niccolo-machiavelli-尼科洛马基雅维利/SKILL.md` | `agents/thinkers/machiavelli-analyst.md` |
+| 雷·达里奥 | `skills/ray-dalio-雷达里奥/SKILL.md` | `agents/thinkers/dalio-analyst.md` |
+| 卡尔·波普尔 | `skills/karl-popper-卡尔波普尔/SKILL.md` | `agents/thinkers/popper-analyst.md` |
 
 ---
 
